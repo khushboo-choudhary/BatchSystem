@@ -5,7 +5,7 @@ export default function Features() {
     <>
       <div
         id="Features"
-        className="flex flex-col lg:flex-row h-[650px] max-md:h-auto justify-between   max-lg:ml-[5%] ml-[10%]"
+        className="flex flex-col lg:flex-row h-[650px] max-md:h-auto justify-between max-lg:ml-[5%] ml-[10%]"
       >
         <div className="w-full p-4 h-full max-lg:hidden">
           <div className="relative">
@@ -103,7 +103,7 @@ export default function Features() {
           </div>
         </div>
         <div>
-          <figcaption className="absolute right-3 -z-9">
+          <figcaption className="absolute right-3 -z-9 hidden">
             <img width={370} height={370} src={"Group 35897.png"} alt="Star" />
           </figcaption>
         </div>

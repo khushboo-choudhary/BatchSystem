@@ -47,9 +47,9 @@ export default function Hero() {
           </figcaption>
         </div>
       </div>
-      <div className="w-full lg:w-1/2 p-4 flex flex-col h-[700px] md:flex">
-        <div className="relative h-full">
-          <figcaption className="absolute right-0 lg:left-[100px] top-[380px] lg:left-[150px] -z-9 blur-xl">
+      <div className="w-full lg:w-1/2 p-4 flex flex-col md:h-[700px] h-[400px] md:flex">
+        <div className="relative md:h-full max-sm:h-10">
+          <figcaption className="absolute right-0 lg:left-[100px] top-[380px] lg:left-[150px] -z-9 blur-xl hidden">
             <img
               className="rotate-180"
               width={470}
