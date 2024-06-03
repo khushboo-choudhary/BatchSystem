@@ -1,3 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Clash+Display:wght@400;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -11,3 +16,32 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.light {
+  background-color: rgb(184, 184, 235);
+}
+
+.dark {
+  background-color: white;
+}
+/* .Ellipse1 {
+  position: absolute;
+  width: 284px;
+  height: 153px;
+  left: 154px;
+  top: 52px;
+  background: #FF5555;
+  filter: blur(50px);
+
+}
+
+/* Ellipse 2 */
+/* .Ellipse2 {
+position: absolute;
+width: 290px;
+height: 153px;
+left: 151px;
+top: 129px;
+background: #FDE598;
+filter: blur(50px);
+} */ 
