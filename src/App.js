@@ -4,6 +4,7 @@ import { Route, Routes } from "react-router-dom";
 import { ThemeContext } from "./Context/theme";
 import PricingRoutes from "./Component/PricingRoutes";
 import Home from "./Component/Home";
+import Download from "./Component/Download";
 // import Download from "./Component/Download";
 
 function App() {
@@ -11,8 +12,9 @@ function App() {
   return (
     <div id="top" className={`${themename} app`}>
       <Routes>
-      <Route path="/" element={<Home />} />
+        <Route path="/" element={<Home />} />
         <Route path="/pricing" element={<PricingRoutes />} />
+        <Route path="/download" element={<Download />} />
       </Routes>
     </div>
   );
