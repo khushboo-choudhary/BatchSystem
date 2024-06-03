@@ -6,21 +6,28 @@ export default function Footer() {
   return (
     <>
       <div className="flex items-center justify-center py-16 relative px-4 md:mt-16">
-        <img width={"70%"} height={"50%"} src={"/Frame.png"} alt="imge" className="md:w-[70%] w-[90%]"/>
         <img
-          className="max-sm:hidden absolute top-[220px] left-[200px]"
-          width={50}
-          height={50}
-          src={"Star 8.png"}
-          alt="imge"
-        />
-        <img
-          className="max-md:hidden -z-10 absolute top-[-100px] left-[80px]"
+          className="max-md:hidden -z-9 absolute left-0 top-[-90px] left-[20px]"
           width={500}
           height={500}
           src={"/red.png"}
           alt="imge"
         />
+        <img
+          width={"70%"}
+          height={"50%"}
+          src={"/Frame.png"}
+          alt="imge"
+          className="md:w-[70%] w-[90%] relative"
+        />
+        <img
+          className="max-sm:hidden absolute top-[240px] left-[130px]"
+          width={50}
+          height={50}
+          src={"Star 8.png"}
+          alt="imge"
+        />
+       
       </div>
 
       <div

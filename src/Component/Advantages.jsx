@@ -4,7 +4,7 @@ export default function Advantages() {
   return (
     <>
       <section className="mx-auto lg:w-4/5">
-        <div className="w-full flex flex-col lg:flex-row items-center justify-center pt-14 pr-2 mx-auto">
+        <div className="w-full flex flex-col lg:flex-row items-center justify-center pt-14 pr-2 mx-auto relative">
           <div className="w-4/5 lg:w-[535px] mb-8 lg:mb-0">
             <h5 className="text-red-400 text-2xl max-md:text-lg text-center lg:text-left">
               ADVANTAGES
@@ -25,7 +25,10 @@ export default function Advantages() {
             </p>
           </div>
 
-          <div className="flex-2 mt-8 lg:mt-0">
+          <figcaption className="absolute right-0 lg:right-[150px] top-[180px] -z-9 hidden md:block">
+            <img width={670} height={570} src="/red.png" alt="red" />
+          </figcaption>
+          <div className="flex-2 mt-8 lg:mt-0 relative">
             <img
               src="/Group 35935.png"
               alt="Illustration"
@@ -36,7 +39,7 @@ export default function Advantages() {
       </section>
 
       <section className="mx-auto lg:w-4/5">
-        <div className="w-full flex flex-col-reverse lg:flex-row-reverse items-center justify-center pt-14 pr-2 mx-auto">
+        <div className="w-full flex flex-col-reverse lg:flex-row-reverse items-center justify-center pt-14 pr-2 mx-auto relative">
           <div className="w-4/5 lg:w-[535px] mb-8 lg:mb-0">
             <div className="icon-title flex items-center justify-center lg:justify-start my-4">
               <img
@@ -56,7 +59,11 @@ export default function Advantages() {
               ac dolor neque lorem sapien, suspendisse aliquam.
             </p>
           </div>
-          <div className="flex-2 mt-8 lg:mt-0">
+          <figcaption className="absolute right-0 lg:right-[580px] top-[180px] -z-9 hidden md:block rotate-180">
+            <img width={670} height={570} src="/red.png" alt="red" />
+          </figcaption>
+          <div className="flex-2 mt-8 lg:mt-0 relative">
+            
             <img
               src="/Group 35937.png"
               alt="Illustration"
