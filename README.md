@@ -1,3 +1,34 @@
+# Batch System Assignment
+I have cloned the figma design of Uifry static webpage using React + Tailwind CSS and deployed it on Vercel.
+
+# Run in local and Installation
+
+    1. Clone the repo
+
+>        ### git clone https://github.com/khushboo-choudhary/BatchSystem.git
+
+>        ### cd batch_system
+
+    2. Install NPM Packages
+        
+>        ### npm install
+
+    3. Build and Start the Server
+            
+>        ### npm start
+
+    4. Vercel Link 
+
+>        ### `https://batch-system-indol.vercel.app/`    
+
+
+## How website look like
+
+**You can go through the whole website deployed link is —**
+[https://batch-system-indol.vercel.app/](https://batch-system-indol.vercel.app/)
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
